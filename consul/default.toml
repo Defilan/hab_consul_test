@@ -7,7 +7,7 @@ website = true
 expect = "3"
 
 [server]
-bind = "0.0.0.0"
+bind = "127.0.0.1"
 data-dir = "/hab/svc/consul/data/consul"
 datacenter = "east-aws"
 loglevel = "INFO"
@@ -30,4 +30,4 @@ serf_wan = 8302
 server = 8300
 
 [client]
-bind = "0.0.0.0"
+bind = "127.0.0.1"
