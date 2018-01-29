@@ -1,6 +1,6 @@
 pkg_name=consul
 pkg_origin=defilan
-pkg_version="0.1.0"
+pkg_version="1.0.2"
 pkg_maintainer="Christopher Maher<chris@mahercode.io>"
 pkg_license=("Apache-2.0")
 pkg_deps=(core/consul)
