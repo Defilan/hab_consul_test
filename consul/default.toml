@@ -7,7 +7,7 @@ website = true
 expect = "3"
 
 [server]
-bind = "0.0.0.0"
+bind = "127.0.0.1"
 data-dir = "$pkg_svc_data_path"
 datacenter = "aag"
 loglevel = "INFO"
@@ -32,4 +32,9 @@ serf_wan = 8302
 server = 8300
 
 [client]
-bind = "0.0.0.0"
+bind = "127.0.0.1"
+
+[cert]
+ca = "ca"
+consulcert = "counselcert"
+consulkey = "counseykey"

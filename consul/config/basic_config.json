@@ -1,5 +1,10 @@
 {
   "datacenter": "{{cfg.server.datacenter}}",
+  "verify_incoming": true,
+  "verify_outgoing": true,
+  "ca_file": "{{pkg.svc_config_path}}/ca.cert",
+  "cert_file": "{{pkg.svc_config_path}}/consul.cert",
+  "key_file": "{{pkg.svc_config_path}}/consul.key",
   "data_dir": "{{cfg.server.data-dir}}",
   "log_level": "{{cfg.server.loglevel}}",
   "bind_addr": "{{cfg.server.bind}}",
